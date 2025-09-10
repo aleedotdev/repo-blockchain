@@ -108,7 +108,7 @@ const Header = () => {
               <div className="hidden lg:block">
                 <Button
                   onClick={() => scrollToSection("contactUs")}
-                  className="w-fit"
+                  className="w-fit bg-white !text-black"
                 >
                   Contact Us
                 </Button>
