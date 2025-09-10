@@ -24,27 +24,29 @@ const LetsStarted = () => {
         {/* Right Side - Content */}
         <div className="flex items-center justify-center lg:justify-start">
           <div>
-            <Typography
-              size="h5"
-              as={"h5"}
-              className="text-orange font-eurostile-semibold tracking-wider uppercase mb-2"
-            >
-              GET STARTED
-            </Typography>
+            <div className="">
+              <Typography
+                size="h5"
+                as={"h5"}
+                className="text-orange font-eurostile-semibold tracking-wider uppercase pb-2"
+              >
+                GET STARTED
+              </Typography>
 
-            <Typography
-              as="h1"
-              size="h1"
-              className="leading-tight font-eurostile mb-2"
-            >
-              Launch Your{" "}
-              <span className="!text-orange">
-                Blockchain Product with Confidence
-              </span>
-            </Typography>
+              <Typography
+                as="h1"
+                size="h1"
+                className="leading-none font-eurostile mb-3"
+              >
+                Launch Your{" "}
+                <span className="!text-orange">
+                  Blockchain Product with Confidence
+                </span>
+              </Typography>
+            </div>
             <Typography
               size="lg"
-              className="text-dark-gray max-w-md leading-relaxed mb-8"
+              className="text-dark-gray max-w-md leading-relaxed pb-6"
             >
               From concept to mainnet, our experts handle everything —
               architecture, smart contracts, frontend, security audits,

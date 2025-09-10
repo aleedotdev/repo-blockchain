@@ -67,7 +67,7 @@ const ContactFormSection = () => {
               <Typography
                 as="h1"
                 size="h1"
-                className="text-dark-black leading-tight font-eurostile"
+                className="text-dark-black leading-none font-eurostile"
               >
                 Your Web3 Journey Begins Here —{" "}
                 <span className="!text-orange">Free Discovery Call</span>

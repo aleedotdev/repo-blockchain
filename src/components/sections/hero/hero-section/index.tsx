@@ -10,26 +10,19 @@ const Hero = () => {
         <div className="flex flex-col lg:flex-row gap-6 sm:gap-8 md:gap-10 lg:gap-12 xl:gap-16 items-center">
           {/* left side - with more padding */}
           <div className="w-full flex flex-col text-center lg:text-left">
-            <div className="flex flex-col gap-8 sm:gap-10 md:gap-12">
+            <div className="flex flex-col gap-4 md:gap-4">
               <div className="flex flex-col">
                 <div className="flex flex-col">
                   <Typography
-                    size={"lg"}
-                    as={"p"}
-                    className="text-blue font-eurostile-semibold"
-                  >
-                    Let's Build
-                  </Typography>
-                  <Typography
                     size={"h1"}
                     as={"h1"}
-                    className="font-eurostile text-white leading-tight"
+                    className="font-eurostile text-white leading-none"
                   >
                     Unlock the Power of{" "}
                     <span className="text-orange"> Blockchain</span> Technology
                   </Typography>
                 </div>
-                <div className="mt-4 sm:mt-6">
+                <div className="mt-3 sm:mt-3">
                   <Typography
                     size={"xl"}
                     as={"p"}
@@ -45,7 +38,7 @@ const Hero = () => {
                 <Typography
                   size={"lg"}
                   as={"p"}
-                  className="text-gray font-eurostile-semibold leading-relaxed capitalize"
+                  className="text-gray font-eurostile-semibold leading-relaxed text-white capitalize"
                 >
                   Get in touch now.
                 </Typography>
@@ -65,8 +58,8 @@ const Hero = () => {
             </div>
           </div>
           {/* right side - closer to edge, no right padding */}
-          <div className="w-full flex justify-center lg:justify-end px-4 sm:px-6 md:px-8 lg:px-0">
-            <div className="relative w-full">
+          <div className="w-full flex justify-center xl:justify-end px-4 sm:px-6 md:px-8 lg:px-0">
+            <div className="relative w-full flex justify-center">
               <Image
                 src={"/assets/images/hero-img.webp"}
                 width={590}

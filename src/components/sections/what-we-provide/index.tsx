@@ -45,7 +45,7 @@ const WhatWeProvide = () => {
                   BNB Chain, or Solana.
                 </Typography>
               </div>
-              <div className="flex flex-col gap-0.5 rounded-[12px] lg:rounded-[28px] bg-white py-5 px-6 sm:py-6 lg:py-8 lg:px-10">
+              <div className="flex flex-col gap-2 leading-tight rounded-[12px] lg:rounded-[28px] bg-white py-5 px-6 sm:py-6 lg:py-8 lg:px-10">
                 <Typography
                   size={"h3"}
                   as={"h3"}
@@ -64,7 +64,7 @@ const WhatWeProvide = () => {
               </div>
             </div>
             <div className="flex flex-col gap-5 sm:gap-7.5">
-              <div className="flex xl:max-w-[608px] flex-col gap-3.5 rounded-[12px] xl:min-h-[166px] lg:rounded-[28px] bg-white py-5 px-6 sm:py-6 lg:py-9 lg:px-10">
+              <div className="flex xl:max-w-[608px] flex-col gap-2 leading-tight rounded-[12px] xl:min-h-[166px] lg:rounded-[28px] bg-white py-5 px-6 sm:py-6 lg:py-9 lg:px-10">
                 <Typography
                   size={"h3"}
                   as={"h3"}
@@ -81,7 +81,7 @@ const WhatWeProvide = () => {
                 </Typography>
               </div>
               <div className="flex flex-col xl:flex-row gap-5 sm:gap-7.5">
-                <div className="flex flex-col gap-3.5 xl:max-w-[266px] xl:min-h-[301px] rounded-[12px] lg:rounded-[28px] bg-white py-5 px-6 sm:py-6 lg:py-9 lg:px-10">
+                <div className="flex flex-col gap-2 leading-tight xl:max-w-[266px] xl:min-h-[301px] rounded-[12px] lg:rounded-[28px] bg-white py-5 px-6 sm:py-6 lg:py-9 lg:px-10">
                   <Typography
                     size={"h3"}
                     as={"h3"}
@@ -98,7 +98,7 @@ const WhatWeProvide = () => {
                     integrations.
                   </Typography>
                 </div>
-                <div className="flex flex-col gap-3.5 xl:max-w-[312px] xl:min-h-[301px] rounded-[12px] lg:rounded-[28px] bg-white py-5 px-6 sm:py-6 lg:py-9 lg:px-10">
+                <div className="flex flex-col gap-2 leading-tight xl:max-w-[312px] xl:min-h-[301px] rounded-[12px] lg:rounded-[28px] bg-white py-5 px-6 sm:py-6 lg:py-9 lg:px-10">
                   <Typography
                     size={"h3"}
                     as={"h3"}

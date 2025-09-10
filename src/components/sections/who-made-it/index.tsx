@@ -15,7 +15,7 @@ const WhoGetItDone = () => {
             <Typography
               as="h1"
               size="h1"
-              className="leading-tight font-eurostile whitespace-pre-wrap text-white mb-2"
+              className="leading-none font-eurostile whitespace-pre-wrap text-white mb-3"
             >
               We’re Blockchain Experts <br />
               <span className="text-light-orange">Who Get It Done</span>
@@ -23,7 +23,7 @@ const WhoGetItDone = () => {
             <Typography
               size="lg"
               as={"p"}
-              className="text-gray max-w-md leading-relaxed"
+              className="text-gray max-w-md"
             >
               At Code Encoders, we combine deep blockchain knowledge with a
               startup mindset. Our developers are skilled in Ethereum, Polygon,
