@@ -86,7 +86,7 @@ const OurClients = () => {
   };
 
   return (
-    <section className="select-none flex py-12 sm:py-16 lg:py-20 bg-white bg-cover bg-center">
+    <section className="select-none flex py-12 sm:py-16 lg:py-20 bg-[url('/assets/images/our-clients-bg.webp')] bg-cover bg-center">
       <div className="w-full">
         <div className="flex flex-col lg:flex-row lg:items-start gap-8 sm:gap-12 lg:gap-0">
           {/* Left Content */}

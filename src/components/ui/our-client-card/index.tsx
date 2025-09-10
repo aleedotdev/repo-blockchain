@@ -7,7 +7,7 @@ const OurClientsCard = ({ testimonial }: TestimonialCardProps) => {
   const data = testimonial;
 
   return (
-    <div className="relative w-full h-full flex-shrink-0 min-h-[320px] sm:min-h-[480px]">
+    <div className="relative w-full h-full flex-shrink-0 min-h-[200px] md:min-h-[480px]">
       {/* Fake Border Layer */}
       <div
         className="absolute inset-0"
@@ -31,7 +31,7 @@ const OurClientsCard = ({ testimonial }: TestimonialCardProps) => {
 
       {/* Actual Content */}
       <div
-        className="relative px-6.5 py-5.5 sm:px-7.5 sm:py-6.5 h-full flex flex-col justify-between"
+        className="relative px-5 py-4 sm:px-7.5 sm:py-6.5 h-full flex flex-col justify-between"
         style={{
           clipPath:
             "polygon(0% 0%, calc(100% - 20px) 0%, 100% 20px, 100% 100%, 0% 100%)",
@@ -66,7 +66,7 @@ const OurClientsCard = ({ testimonial }: TestimonialCardProps) => {
           <hr className="w-full text-gray" />
 
           {/* Testimonial Text */}
-          <div className="flex-1 min-h-[120px] sm:min-h-[140px] flex items-start">
+          <div className="flex-1 min-h-[230px] md:min-h-[286px] flex items-start">
             <Typography
               size="lg"
               as="p"

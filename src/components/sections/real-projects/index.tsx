@@ -10,7 +10,7 @@ const RealProjects = () => {
   return (
     <section
       id="portfolio"
-      className="w-full bg-[url('/assets/svgs/real-projects-bg.svg')] bg-cover bg-center pt-24 pb-18.5"
+      className="w-full bg-[url('/assets/images/projects-bg.webp')] bg-cover bg-center pt-24 pb-18.5"
     >
       <div className="container mx-auto">
         {/* Header Section */}

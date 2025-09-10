@@ -6,7 +6,7 @@ const WhatWeProvide = () => {
   return (
     <section
       id="services"
-      className="w-full px-5 sm:px-10 pb-6 pt-24 sm:pb-8 sm:pt-24 md:pb-12 md:pt-26 lg:pb-16 lg:pt-28 xl:pb-20 xl:pt-38 flex justify-center items-center bg-[url('/assets/svgs/what-we-provide-bg.svg')] bg-cover bg-center"
+      className="w-full px-5 sm:px-10 pb-6 pt-24 sm:pb-8 sm:pt-24 md:pb-12 md:pt-26 lg:pb-16 lg:pt-28 xl:pb-20 xl:pt-38 flex justify-center items-center bg-[url('/assets/images/what-we-provide.webp')] bg-cover bg-center"
     >
       <div className="flex flex-col gap-15 max-width-section w-full">
         <div className="flex flex-col items-center gap-2">

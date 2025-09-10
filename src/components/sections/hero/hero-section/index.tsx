@@ -68,11 +68,11 @@ const Hero = () => {
           <div className="w-full flex justify-center lg:justify-end px-4 sm:px-6 md:px-8 lg:px-0">
             <div className="relative w-full">
               <Image
-                src={"/assets/svgs/hero-img.svg"}
+                src={"/assets/images/hero-img.webp"}
                 width={590}
                 height={602}
                 alt="hero-image"
-                className="object-contain"
+                className="w-full max-w-[437px]"
                 priority
               />
             </div>
